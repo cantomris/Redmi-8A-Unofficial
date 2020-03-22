@@ -350,12 +350,14 @@ nav img {
   background-color: #09090c;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 5px 25px;
 }
 
 .floaters #second-floater a:hover {
   background-color: #4ca8f3;
+  border: none;
   color: #09090c;
   -webkit-box-shadow: 0 0 5px #277fc7;
           box-shadow: 0 0 5px #277fc7;
