@@ -200,8 +200,8 @@ nav img {
   color: black;
   text-align: center;
   font-size: 20px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px 25px;
@@ -348,8 +348,8 @@ nav img {
           transform: translateX(50%);
   color: white;
   background-color: #09090c;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   border: 1px solid white;
   border-radius: 5px;
   padding: 5px 25px;
@@ -441,6 +441,8 @@ nav img {
   border-radius: 5px;
   padding: 5px 25px;
   background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .slider .right-list button:hover {
@@ -450,6 +452,7 @@ nav img {
 
 .triple {
   padding-bottom: 20px;
+  margin-bottom: 150px;
 }
 
 .triple h1 {
@@ -467,6 +470,7 @@ nav img {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   padding: 50px 20px;
+  margin-bottom: 20px;
 }
 
 .triple .list-row li {
@@ -495,6 +499,8 @@ nav img {
           transform: translateX(50%);
   margin-top: 40px;
   background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .triple button:hover {
@@ -520,6 +526,10 @@ footer ul {
           flex-direction: row;
   padding: 5px;
   list-style: none;
+}
+
+footer ul li {
+  padding-right: 80px;
 }
 
 footer #twitter {
